@@ -1,0 +1,15 @@
+{
+  "name": "stydux",
+  "version": "0.0.1",
+  "dependencies": {
+    "drivers": {
+      "middleware": "*"
+    },
+    "npm": {
+      "mudash": "0.0.3",
+      "react-stydux": "0.0.1",
+      "redux-actions": "0.11.0",
+      "stydux": "0.0.1"
+    }
+  }
+}

@@ -7,13 +7,11 @@ import { connect } from 'react-redux'
 const RouterWithRedux = connect()(Router)
 
 @select({
-  blueprint: blueprint => ({ scenes: _.get(blueprint, 'scenes') })
+  blueprint: (blueprint) => ({ scenes: _.get(blueprint, 'scenes') })
 })
 export default class RouterDriver extends Driver {
 
   renderDriver(children) {
-    console.log('children:', children)
-    console.log('this.state.scenes:', this.state.scenes)
     return (
       <RouterWithRedux
         scenes={this.state.scenes}>

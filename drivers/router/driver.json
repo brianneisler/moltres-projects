@@ -1,0 +1,12 @@
+{
+  "name": "router",
+  "version": "0.0.1",
+  "dependencies": {
+    "drivers": {
+      "stydux": "*"
+    },
+    "npm": {
+      "react-native-router-flux": "^3.35.0"
+    }
+  }
+}
