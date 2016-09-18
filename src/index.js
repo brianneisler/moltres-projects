@@ -1,2 +1,6 @@
-export { default as components } from './components'
-export { default as drivers } from './drivers'
+import * as components from './components'
+import * as drivers from './drivers'
+export {
+  components,
+  drivers
+}

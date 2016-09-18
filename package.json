@@ -23,7 +23,7 @@
     "mudash": "^0.0.5",
     "react-moltres": "^0.0.4",
     "react-redux": "^4.4.5",
-    "react-stydux": "^0.0.2",
+    "react-stydux": "^0.0.3",
     "recompose": "^0.20.2",
     "redux-actions": "^0.12.0",
     "stydux": "^0.0.2"
