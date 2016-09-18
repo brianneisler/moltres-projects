@@ -1,0 +1,8 @@
+{
+  "name": "app",
+  "dependencies": {
+    "actions": "*",
+    "reducers": "*",
+    "sagas": "*"
+  }
+}

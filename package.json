@@ -1,0 +1,64 @@
+{
+  "name": "moltres-projects",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "description": "Temporary repo for various moltres projects until moltres package manager is working",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianneisler/moltres-projects.git"
+  },
+  "author": "Brian Neisler <me@brianneisler.com>",
+  "bugs": {
+    "url": "https://github.com/brianneisler/moltres-projects/issues"
+  },
+  "homepage": "https://github.com/brianneisler/moltres-projects#readme",
+  "scripts": {
+    "clean": "gulp clean",
+    "dev": "gulp dev",
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "es6-symbol": "^3.1.0",
+    "immutable": "^3.8.1",
+    "mudash": "^0.0.5",
+    "react-moltres": "^0.0.4",
+    "react-redux": "^4.4.5",
+    "react-stydux": "^0.0.2",
+    "recompose": "^0.20.2",
+    "redux-actions": "^0.12.0",
+    "stydux": "^0.0.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-eslint": "^6.1.2",
+    "babel-polyfill": "6.13.0",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-1": "^6.13.0",
+    "babel-preset-stage-2": "^6.13.0",
+    "bluebird": "^3.4.1",
+    "chai": "^3.5.0",
+    "del": "^2.2.1",
+    "eslint": "^3.4.0",
+    "eslint-plugin-react": "^6.2.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-eslint": "^3.0.1",
+    "gulp-mocha": "^3.0.0",
+    "gulp-recipe": "0.0.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
+    "immutable-devtools": "^0.0.7"
+  },
+  "peerDependencies": {
+    "moltres": "^0.0.8",
+    "react": "^0.14.0 || ^15.0.0-0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "moltres",
+    "CMS",
+    "react",
+    "redux"
+  ]
+}
