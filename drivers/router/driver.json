@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "dependencies": {
     "drivers": {
-      "stydux": "*"
+      "app": "^0.0.1",
+      "stydux": "^0.0.1"
     },
     "npm": {
       "react-native-router-flux": "^3.35.0"
