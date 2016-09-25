@@ -30,6 +30,7 @@
   "devDependencies": {
     "babel-core": "^6.13.2",
     "babel-eslint": "^6.1.2",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
     "babel-polyfill": "6.13.0",
     "babel-preset-es2015": "^6.13.2",
     "babel-preset-react": "^6.11.1",
@@ -40,6 +41,8 @@
     "del": "^2.2.1",
     "eslint": "^3.4.0",
     "eslint-plugin-react": "^6.2.0",
+    "fbjs": "^0.8.3",
+    "fbjs-scripts": "^0.7.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-eslint": "^3.0.1",
@@ -50,7 +53,7 @@
     "immutable-devtools": "^0.0.7"
   },
   "peerDependencies": {
-    "moltres": "^0.0.8",
+    "moltres": "^0.0.10",
     "react": "^0.14.0 || ^15.0.0-0"
   },
   "license": "MIT",

@@ -1,0 +1,13 @@
+{
+  "name": "Alert",
+  "version": "0.0.1",
+  "dependencies": {
+    "components": {
+      "CloseIcon": "^0.0.1"
+    },
+    "npm": {
+      "mudash": "*",
+      "react-stydux": "*"
+    }
+  }
+}

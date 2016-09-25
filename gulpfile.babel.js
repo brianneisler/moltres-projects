@@ -3,19 +3,56 @@
 //-------------------------------------------------------------------------------
 
 import gulp from 'gulp'
+import babel from 'gulp-babel'
 import eslint from 'gulp-eslint'
 import mocha from 'gulp-mocha'
+import sourcemaps from 'gulp-sourcemaps'
 import util from 'gulp-util'
 import del from 'del'
+import babelRegister from 'babel-core/register'
+
+
+//-------------------------------------------------------------------------------
+// Gulp Properties
+//-------------------------------------------------------------------------------
+
+const sources = {
+  babel: [
+    'src/**',
+    '!**/flareon/**',
+    '!**/tests/**'
+  ]
+}
 
 
 //-------------------------------------------------------------------------------
 // Gulp Tasks
 //-------------------------------------------------------------------------------
 
-gulp.task('dev', ['lint', 'lint-watch'])
+gulp.task('default', ['prod'])
+
+gulp.task('prod', ['babel'])
+
+gulp.task('dev', ['babel', 'lint', 'babel-watch', 'lint-watch'])
 
 gulp.task('test', ['lint', 'mocha'])
+
+gulp.task('babel', function() {
+  return gulp.src(sources.babel)
+    .pipe(sourcemaps.init({
+      loadMaps: true
+    }))
+    .pipe(babel({
+      plugins: ['transform-decorators-legacy'],
+      presets: ['es2015', 'react', 'stage-1', 'stage-2'],
+      ignore: ['**/*.json', '**/*.png']
+    }))
+    .pipe(sourcemaps.write('./'))
+    .pipe(gulp.dest('./dist'))
+    .on('error', (error) => {
+      util.log(error)
+    })
+})
 
 gulp.task('lint', () => {
   return gulp.src([
@@ -50,20 +87,30 @@ gulp.task('clean', () => {
   ])
 })
 
+gulp.task('cleanse', ['clean'], () => {
+  return del([
+    'node_modules'
+  ])
+})
+
 
 //-------------------------------------------------------------------------------
 // Gulp Watchers
 //-------------------------------------------------------------------------------
 
-gulp.task('lint-watch', function() {
+gulp.task('babel-watch', () => {
+  gulp.watch(sources.babel, ['babel'])
+})
+
+gulp.task('lint-watch', () => {
   const lintAndPrint = eslint()
   lintAndPrint.pipe(eslint.formatEach())
 
-  return gulp.watch('src/**/*.js', function (event) {
+  return gulp.watch('src/**/*.js', (event) => {
     if (event.type !== 'deleted') {
       gulp.src(event.path)
         .pipe(lintAndPrint, {end: false})
-        .on('error', function (error) {
+        .on('error', (error) => {
           util.log(error)
         })
     }

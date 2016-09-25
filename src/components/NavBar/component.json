@@ -1,0 +1,17 @@
+{
+  "name": "NavBar",
+  "version": "0.0.1",
+  "dependencies": {
+    "components": {
+      "Bar": "^0.0.1",
+      "Button": "^0.0.1",
+      "Chevron": "^0.0.1",
+      "Grid": "^0.0.1",
+      "Row": "^0.0.1"
+    },
+    "npm": {
+      "mudash": "*",
+      "react-stydux": "*"
+    }
+  }
+}

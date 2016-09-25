@@ -1,0 +1,11 @@
+{
+  "name": "Button",
+  "version": "0.0.1",
+  "dependencies": {
+    "npm": {
+      "mudash": "*",
+      "react-native-button": "*",
+      "react-stydux": "*"
+    }
+  }
+}

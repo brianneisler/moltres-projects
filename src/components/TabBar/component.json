@@ -1,0 +1,11 @@
+{
+  "name": "TabBar",
+  "version": "0.0.1",
+  "dependencies": {
+    "npm": {
+      "mudash": "*",
+      "react-native-router-flux": "*",
+      "react-stydux": "*"
+    }
+  }
+}
