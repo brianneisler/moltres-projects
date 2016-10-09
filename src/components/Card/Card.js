@@ -8,7 +8,6 @@ import { CARD_DECK_CARD_WIDTH, CARD_DECK_CARD_MARGIN_LEFT } from '../styles/cons
 
 const propStyles = (props) => {
   const { isCardDeck, bordered, rounded } = props
-  console.log(bordered, rounded)
   const styles = { card: {} }
 
   if (isCardDeck) {
@@ -57,8 +56,7 @@ export default class Card extends Component {
   static defaultStyles = baseStyles
 
   render() {
-    const { styles, children, bordered, rounded } = this.props
-    console.log(bordered, rounded)
+    const { styles, children } = this.props
     return (
       <View style={styles.card}>
         {children}

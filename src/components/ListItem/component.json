@@ -1,4 +1,6 @@
 {
+  "namespace": "moltres",
+  "type": "component",
   "name": "ListItem",
   "version": "0.0.1",
   "dependencies": {

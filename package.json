@@ -1,7 +1,6 @@
 {
   "name": "moltres-projects",
-  "version": "0.0.1",
-  "main": "./index.js",
+  "version": "0.0.2",
   "description": "Temporary repo for various moltres projects until moltres package manager is working",
   "repository": {
     "type": "git",
@@ -41,8 +40,6 @@
     "del": "^2.2.1",
     "eslint": "^3.4.0",
     "eslint-plugin-react": "^6.2.0",
-    "fbjs": "^0.8.3",
-    "fbjs-scripts": "^0.7.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-eslint": "^3.0.1",

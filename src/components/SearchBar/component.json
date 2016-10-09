@@ -1,4 +1,6 @@
 {
+  "namespace": "moltres",
+  "type": "component",
   "name": "SearchBar",
   "version": "0.0.1",
   "dependencies": {

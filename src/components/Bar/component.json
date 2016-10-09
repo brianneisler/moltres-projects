@@ -1,4 +1,6 @@
 {
+  "namespace": "moltres",
+  "type": "component",
   "name": "Bar",
   "version": "0.0.1",
   "dependencies": {

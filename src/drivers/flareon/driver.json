@@ -1,0 +1,8 @@
+{
+  "namespace": "moltres",
+  "type": "driver",
+  "name": "flareon",
+  "dependencies": {
+
+  }
+}

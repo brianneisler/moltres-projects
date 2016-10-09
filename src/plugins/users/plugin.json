@@ -1,10 +1,11 @@
 {
+  "namespace": "moltres",
+  "type": "plugin",
   "name": "users",
   "version": "0.0.1",
   "dependencies": {
     "flareon": {
       "users": "0.0.1"
     }
-  },
-  "driver": "./UsersDriver"
+  }
 }

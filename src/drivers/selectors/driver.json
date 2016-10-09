@@ -1,0 +1,14 @@
+{
+  "namespace": "moltres",
+  "type": "driver",
+  "name": "selectors",
+  "dependencies": {
+    "drivers": {
+      "higherorder": "*"
+    },
+    "npm": {
+      "duxtape": "^0.0.6",
+      "mudash": "^0.0.5"
+    }
+  }
+}

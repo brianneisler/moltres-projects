@@ -1,0 +1,8 @@
+{
+  "namespace": "moltres",
+  "type": "driver",
+  "name": "plugins",
+  "dependencies": {
+
+  }
+}

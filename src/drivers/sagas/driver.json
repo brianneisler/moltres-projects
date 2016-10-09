@@ -1,0 +1,14 @@
+{
+  "namespace": "moltres",
+  "type": "driver",
+  "name": "sagas",
+  "dependencies": {
+    "drivers": {
+      "middleware": "*"
+    },
+    "npm": {
+      "mudash": "^0.0.5",
+      "redux-saga": "^0.11.0"
+    }
+  }
+}
