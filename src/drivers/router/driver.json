@@ -4,7 +4,7 @@
   "name": "router",
   "version": "0.0.1",
   "dependencies": {
-    "drivers": {
+    "driver": {
       "app": "^0.0.1",
       "stydux": "^0.0.1"
     },

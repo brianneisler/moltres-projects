@@ -4,7 +4,7 @@
   "name": "app",
   "version": "0.0.1",
   "dependencies": {
-    "drivers": {
+    "driver": {
       "actions": "^0.0.1",
       "reducers": "^0.0.1",
       "sagas": "^0.0.1"

@@ -3,7 +3,7 @@
   "type": "driver",
   "name": "sagas",
   "dependencies": {
-    "drivers": {
+    "driver": {
       "middleware": "*"
     },
     "npm": {

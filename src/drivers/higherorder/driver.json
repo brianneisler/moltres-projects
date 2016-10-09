@@ -3,7 +3,7 @@
   "type": "driver",
   "name": "higherorder",
   "dependencies": {
-    "drivers": {
+    "driver": {
       "enhancers": "*"
     },
     "npm": {

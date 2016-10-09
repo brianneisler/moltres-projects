@@ -4,7 +4,7 @@
   "name": "stydux",
   "version": "0.0.1",
   "dependencies": {
-    "drivers": {
+    "driver": {
       "middleware": "*"
     },
     "npm": {

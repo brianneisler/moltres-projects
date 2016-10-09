@@ -4,7 +4,7 @@
   "name": "NavBar",
   "version": "0.0.1",
   "dependencies": {
-    "components": {
+    "component": {
       "Bar": "^0.0.1",
       "Button": "^0.0.1",
       "Chevron": "^0.0.1",
