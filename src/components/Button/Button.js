@@ -35,9 +35,9 @@ export default class Button extends Component {
     const {
       styles,
       children,
-      ...other,
       positive,
-      negative
+      negative,
+      ...other
     } = this.props
 
     return (
@@ -52,8 +52,7 @@ export default class Button extends Component {
           styles.button_text,
           positive ? styles.button_positive_text : null,
           negative ? styles.button_negative_text : null
-        ]}
-      >
+        ]}>
         {children}
       </RNButton>
     )
