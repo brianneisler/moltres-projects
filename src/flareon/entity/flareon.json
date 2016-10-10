@@ -1,4 +1,6 @@
 {
+  "namespace": "moltres",
+  "type": "flareon",
   "name": "entity",
   "version": "0.0.1",
   "rules": "./rules/index.js"

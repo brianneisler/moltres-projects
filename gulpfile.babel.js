@@ -19,7 +19,6 @@ import babelRegister from 'babel-core/register'
 const sources = {
   babel: [
     'src/**',
-    '!**/flareon/**',
     '!**/tests/**'
   ]
 }
