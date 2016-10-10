@@ -17,9 +17,7 @@ export default class StyduxDriver extends Driver {
   }
 
   renderDriver(child) {
-    console.log('child:', child)
     const children = child ? Children.only(child) : null
-    console.log('children:', children, 'this.stydux:', this.stydux)
     return (
       <StyduxProvider stydux={this.stydux}>
         {children}

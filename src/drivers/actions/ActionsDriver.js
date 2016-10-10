@@ -20,11 +20,11 @@ export default class ActionsDriver extends Driver {
   }
 
   generateActions(state, drivers) {
-    return _.reduce(drivers, (actions, driver) => {
+    return _.reduce(drivers, (reduction, driver) => {
       if (_.isFunction(_.get(driver, 'createActions'))) {
-        return _.assoc(actions, driver.createActions(state, drivers))
+        return _.assoc(reduction, driver.createActions(state, drivers))
       }
-      return actions
+      return reduction
     }, _.im({}))
   }
 }

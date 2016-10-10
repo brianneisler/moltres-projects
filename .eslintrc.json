@@ -20,7 +20,7 @@
     "curly": 2,
     "eol-last": 2,
     "generator-star-spacing": ["error", "after"],
-    "id-length": [2, {"min": 2, "max": 50, "properties": "never", "exceptions": ["e", "i", "x", "_", "R"]}],
+    "id-length": [2, {"min": 2, "max": 50, "properties": "never", "exceptions": ["e", "i", "o", "x", "_", "R"]}],
     "indent": [2, 2, {"SwitchCase": 1}],
     "no-alert": 2,
     "no-console": 2,

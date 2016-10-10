@@ -25,7 +25,7 @@ export default class ListItem extends Component {
     onPress: PropTypes.func
   }
   static defaultProps = {
-    onPress: () => console.log('Pressed'),
+    onPress: () => null,
     underlayColor: LIST_ITEM_UNDERLAY_COLOR
   }
   static defaultStyles = baseStyles
