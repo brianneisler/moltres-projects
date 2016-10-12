@@ -105,7 +105,7 @@ gulp.task('lint-watch', () => {
   const lintAndPrint = eslint()
   lintAndPrint.pipe(eslint.formatEach())
 
-  return gulp.watch('src/**/*.js', (event) => {
+  return gulp.watch(sources.lint, (event) => {
     if (event.type !== 'deleted') {
       gulp.src(event.path)
         .pipe(lintAndPrint, {end: false})

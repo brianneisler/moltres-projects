@@ -15,7 +15,7 @@ export default class RouterDriver extends Driver {
     return (
       <RouterWithRedux
         scenes={this.state.scenes}>
-        {Children.only(children)}
+        {children ? Children.only(children) : null}
       </RouterWithRedux>
     )
   }

@@ -1,6 +1,6 @@
 {
   "name": "moltres-projects",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Temporary repo for various moltres projects until moltres package manager is working",
   "repository": {
     "type": "git",

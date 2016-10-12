@@ -9,7 +9,7 @@ import saga from './sagas'
   actions: wrapActions((_actions) => {
     return _.pick(_.mutable(_actions), ['awaitApp'])
   }),
-  blueprint: blueprint => ({ apps: _.get(blueprint, 'apps') })
+  blueprint: blueprint => ({ apps: _.get(blueprint, 'app') })
 })
 export default class AppDriver extends Driver {
 

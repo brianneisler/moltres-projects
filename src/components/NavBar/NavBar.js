@@ -24,8 +24,8 @@ import baseStyles from './styles'
 export default class NavBar extends Component {
 
   static propTypes = {
-    renderLeft: PropTypes.function,
-    renderRight: PropTypes.function
+    renderLeft: PropTypes.func,
+    renderRight: PropTypes.func
   }
   static defaultProps = {}
   static defaultStyles = baseStyles
