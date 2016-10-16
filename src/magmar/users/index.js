@@ -1,4 +1,4 @@
-import info from './flareon.json'
+import info from './magmar.json'
 export { default } from './Users'
 export {
   info

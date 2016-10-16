@@ -1,7 +1,7 @@
 {
   "namespace": "moltres",
-  "type": "flareon",
-  "name": "entity",
+  "type": "magmar",
+  "name": "users",
   "version": "0.0.1",
   "rules": "./rules/index.js"
 }

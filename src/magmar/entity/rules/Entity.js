@@ -1,4 +1,4 @@
-import { type } from 'flareon'
+import { type } from 'magmar'
 import Id from './Id'
 import TimeStamped from './TimeStamped'
 

@@ -4,7 +4,7 @@
   "name": "users",
   "version": "0.0.1",
   "dependencies": {
-    "flareon": {
+    "magmar": {
       "users": "0.0.1"
     }
   }

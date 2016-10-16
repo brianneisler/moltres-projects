@@ -1,4 +1,4 @@
-import { Number, type } from 'flareon'
+import { Number, type } from 'magmar'
 
 export default type('TimeStamped', {
   createdAt: Number,
