@@ -2,6 +2,7 @@
   "namespace": "moltres",
   "type": "driver",
   "name": "higherorder",
+  "version": "0.0.1",
   "dependencies": {
     "driver": {
       "enhancers": "*"

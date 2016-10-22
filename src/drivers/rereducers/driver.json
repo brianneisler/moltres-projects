@@ -1,11 +1,11 @@
 {
   "namespace": "moltres",
   "type": "driver",
-  "name": "selectors",
+  "name": "rereducers",
   "version": "0.0.1",
   "dependencies": {
     "driver": {
-      "middleware": "^0.0.1"
+      "higherorder": "^0.0.1"
     },
     "npm": {
       "duxtape": "^0.0.7",

@@ -8,8 +8,8 @@ import { Driver, select } from 'moltres'
 })
 export default class SagasDriver extends Driver {
 
-  constructor(info) {
-    super(info)
+  constructor(info, context) {
+    super(info, context)
     this.sagaMiddleware = null
   }
 

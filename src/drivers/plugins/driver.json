@@ -2,6 +2,7 @@
   "namespace": "moltres",
   "type": "driver",
   "name": "plugins",
+  "version": "0.0.1",
   "dependencies": {
 
   }

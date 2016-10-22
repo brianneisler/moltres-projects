@@ -2,10 +2,11 @@
   "namespace": "moltres",
   "type": "driver",
   "name": "reducers",
+  "version": "0.0.1",
   "dependencies": {
     "npm": {
-      "duxtape": "^0.0.5",
-      "mudash": "^0.0.5"
+      "duxtape": "^0.0.7",
+      "mudash": "^0.0.8"
     }
   }
 }

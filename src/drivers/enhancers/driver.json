@@ -2,9 +2,10 @@
   "namespace": "moltres",
   "type": "driver",
   "name": "enhancers",
+  "version": "0.0.1",
   "dependencies": {
     "npm": {
-      "mudash": "^0.0.5"
+      "mudash": "^0.0.8"
     }
   }
 }
