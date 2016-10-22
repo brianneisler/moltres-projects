@@ -2,7 +2,7 @@ import _ from 'mudash'
 import React, { PropTypes, Component } from 'react'
 import { View, Text, Animated } from 'react-native'
 import { stydux } from 'react-stydux'
-import CloseIcon from '../CloseIcon'
+import CloseIcon from '@moltres/component/CloseIcon'
 import baseStyles, { positiveStyles, negativeStyles } from './styles'
 
 const mergeStyles = (defaultStyles, mappedStyles, inlineStyles, props) => {

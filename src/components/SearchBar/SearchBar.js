@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react'
 import { Text, TextInput, TouchableOpacity, Animated } from 'react-native'
-import Bar from '../Bar'
+import Bar from '@moltres/component/Bar'
 import { stydux } from 'react-stydux'
 import baseStyles from './styles'
 import { TEXT_INPUT_PLACEHOLDER_COLOR } from '../styles/constants'

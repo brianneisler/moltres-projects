@@ -8,7 +8,7 @@ export default class SelectorsDriver extends Driver {
     return o.createSelectorMiddleware(_.get(state, 'selectorEngine'))
   }
 
-  createState(state, drivers) {
+  createState(state) {
     return _.assoc(state, {
       selectorEngine: o.createSelectorEngine()
     })

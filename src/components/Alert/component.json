@@ -8,7 +8,7 @@
       "CloseIcon": "^0.0.1"
     },
     "npm": {
-      "mudash": "*",
+      "mudash": "^0.0.8",
       "react-stydux": "*"
     }
   }
