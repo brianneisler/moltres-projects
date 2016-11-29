@@ -1,6 +1,6 @@
 import _ from 'mudash'
 import o from 'duxtape'
-import { Driver } from 'moltres'
+import { Driver } from '@moltres/drivers/driver'
 
 export default class ReducersDriver extends Driver {
 

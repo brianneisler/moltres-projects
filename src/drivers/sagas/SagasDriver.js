@@ -1,7 +1,7 @@
 import _ from 'mudash'
 import createSagaMiddleware from 'redux-saga'
 import { fork } from 'redux-saga/effects'
-import { Driver, select } from 'moltres'
+import { Driver, select } from '@moltres/drivers/driver'
 
 @select({
   sagas: (sagas) => ({sagas})
@@ -36,7 +36,7 @@ export default class SagasDriver extends Driver {
     }, _.im([]))
   }
 
-  initDriver() {
+  init() {
     const sagas = _.get(this.state, 'sagas')
     const sagaMiddleware = this.sagaMiddleware
     sagaMiddleware.run(buildRootSaga(sagas))

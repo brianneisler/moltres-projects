@@ -1,0 +1,11 @@
+{
+  "namespace": "moltres",
+  "type": "component",
+  "name": "Scene",
+  "version": "0.0.1",
+  "dependencies": {
+    "npm": {
+      "react-native-router-flux": "^3.35.0"
+    }
+  }
+}

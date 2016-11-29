@@ -1,5 +1,5 @@
 import _ from 'mudash'
-import { Driver } from 'moltres'
+import { Driver } from '@moltres/drivers/driver'
 import enhancer from './enhancer'
 
 export default class HigherOrderDriver extends Driver {

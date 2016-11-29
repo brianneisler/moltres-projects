@@ -1,0 +1,12 @@
+{
+  "namespace": "moltres",
+  "type": "driver",
+  "name": "component",
+  "version": "0.0.1",
+  "dependencies": {
+    "npm": {
+      "mudash": "^0.0.8",
+      "recompose": "^0.20.2"
+    }
+  }
+}

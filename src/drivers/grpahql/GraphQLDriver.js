@@ -1,7 +1,7 @@
 //TODO BRN: This might make more sense as part of magmar
 
 import _ from 'mudash'
-import { Driver } from 'moltres'
+import { Driver } from '@moltres/drivers/driver'
 
 export default class GraphQLDriver extends Driver {
 

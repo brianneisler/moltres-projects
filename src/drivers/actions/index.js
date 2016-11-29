@@ -1,6 +1,6 @@
 import * as actions from './actions'
 import reducer from './reducer'
-const info = require('./driver.json')
+import info from './info.json'
 export { default } from './ActionsDriver'
 export {
   actions,

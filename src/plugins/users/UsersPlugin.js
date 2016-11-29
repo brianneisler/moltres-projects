@@ -1,4 +1,4 @@
-import { Plugin } from 'moltres'
+import { Plugin } from '@moltres/drivers/plugin'
 
 export default class UsersPlugin extends Plugin {
 

@@ -1,4 +1,4 @@
-const info = require('./driver.json')
+import info from './info.json'
 export { default } from './StyduxDriver'
 export {
   info

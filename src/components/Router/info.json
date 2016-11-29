@@ -1,13 +1,9 @@
 {
   "namespace": "moltres",
-  "type": "driver",
-  "name": "router",
+  "type": "component",
+  "name": "Router",
   "version": "0.0.1",
   "dependencies": {
-    "driver": {
-      "app": "^0.0.1",
-      "stydux": "^0.0.1"
-    },
     "npm": {
       "react-native-router-flux": "^3.35.0"
     }

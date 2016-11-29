@@ -1,5 +1,5 @@
 import _ from 'mudash'
-import { Driver, select, wrapActions } from 'moltres'
+import { Driver, select, wrapActions } from '@moltres/drivers/driver'
 import * as actions from './actions'
 import reducer from './reducer'
 import saga from './sagas'
@@ -8,8 +8,7 @@ import saga from './sagas'
 @select({
   actions: wrapActions((_actions) => {
     return _.pick(_.mutable(_actions), ['awaitApp'])
-  }),
-  blueprint: blueprint => ({ apps: _.get(blueprint, 'app') })
+  })
 })
 export default class AppDriver extends Driver {
 
@@ -30,12 +29,7 @@ export default class AppDriver extends Driver {
     return saga
   }
 
-  initDriver() {
-    const { apps } = this.state
+  init() {
     this.state.awaitApp()
-    _.each(apps, (app) => {
-      const { default: factory } = app
-      factory({ app, engine: this.engine })
-    })
   }
 }

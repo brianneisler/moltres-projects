@@ -1,4 +1,4 @@
-import info from './component.json'
+import info from './info.json'
 export { default } from './Alert'
 export {
   info

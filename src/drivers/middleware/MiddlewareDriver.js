@@ -1,6 +1,6 @@
 import _ from 'mudash'
 import { applyMiddleware } from 'redux'
-import { Driver } from 'moltres'
+import { Driver } from '@moltres/drivers/driver'
 
 export default class MiddlewareDriver extends Driver {
 

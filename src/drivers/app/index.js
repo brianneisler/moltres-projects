@@ -1,10 +1,12 @@
 import * as actions from './actions'
+import boot from './boot'
 import reducer from './reducer'
 import * as sagas from './sagas'
-const info = require('./driver.json')
+import info from './info.json'
 export { default } from './AppDriver'
 export {
   actions,
+  boot,
   info,
   reducer,
   sagas

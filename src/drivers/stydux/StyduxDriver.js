@@ -1,6 +1,6 @@
 import _ from 'mudash'
 import React, { Children } from 'react'
-import { Driver } from 'moltres'
+import { Driver } from '@moltres/drivers/driver'
 import { StyduxProvider } from 'react-stydux'
 import { createStydux, createStyduxMiddleware } from 'stydux'
 
